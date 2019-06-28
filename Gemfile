@@ -29,11 +29,11 @@ end
 # ------------------------------------------------
 #    DATABASE/SERVER
 
-group :mysql do
-  # A simple, fast Mysql library for Ruby, binding to libmysql (http://github.com/brianmario/mysql2)
-  # A simple, fast Mysql library for Ruby, binding to libmysql (https://github.com/brianmario/mysql2)
-  gem 'mysql2', '~> 0.4.10'
-end
+# group :mysql do
+#   # A simple, fast Mysql library for Ruby, binding to libmysql (http://github.com/brianmario/mysql2)
+#   # A simple, fast Mysql library for Ruby, binding to libmysql (https://github.com/brianmario/mysql2)
+#   gem 'mysql2', '~> 0.4.10'
+# end
 
 group :pgsql do
   # Pg is the Ruby interface to the {PostgreSQL
